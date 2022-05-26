@@ -8,7 +8,7 @@ const network = NETWORK.eth;
 
 // General metadata for Ethereum
 const namePrefix = "Facebox";
-const description = "Remember to replace this description";
+const description = "Second iteration of Facebox project";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 // If you have selected Solana then the collection starts from 0 automatically
@@ -17,12 +17,10 @@ const layerConfigurations = [
     growEditionSizeTo: 33,
     layersOrder: [
       { name: "Background" },
-      { name: "Eyeball" },
-      { name: "Eye color" },
-      { name: "Iris" },
-      { name: "Shine" },
-      { name: "Bottom lid" },
-      { name: "Top lid" },
+      { name: "Eyes" },
+      { name: "Eyewear" },
+      { name: "Nose" },
+      { name: "Expression" },
     ],
   },
 ];
